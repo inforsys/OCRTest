@@ -1,0 +1,18 @@
+Magick.NET-Q16-AnyCPU, Version=7.17.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec
+  ImageMagick.Resources.ColorProfiles.CMYK.CoatedFOGRA39.icc
+  ImageMagick.Resources.ColorProfiles.CMYK.USWebCoatedSWOP.icc
+  ImageMagick.Resources.ColorProfiles.RGB.AdobeRGB1998.icc
+  ImageMagick.Resources.ColorProfiles.RGB.AppleRGB.icc
+  ImageMagick.Resources.ColorProfiles.RGB.ColorMatchRGB.icc
+  ImageMagick.Resources.ColorProfiles.RGB.SRGB.icm
+  ImageMagick.Resources.MagickScript.xsd
+  ImageMagick.Resources.Xml.colors.xml
+  ImageMagick.Resources.Xml.configure.xml
+  ImageMagick.Resources.Xml.delegates.xml
+  ImageMagick.Resources.Xml.english.xml
+  ImageMagick.Resources.Xml.locale.xml
+  ImageMagick.Resources.Xml.log.xml
+  ImageMagick.Resources.Xml.policy.xml
+  ImageMagick.Resources.Xml.thresholds.xml
+  ImageMagick.Resources.Xml.type.xml
+  ImageMagick.Resources.Xml.type-ghostscript.xml

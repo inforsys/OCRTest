@@ -1,0 +1,34 @@
+LIBRARY kernel32.dll
+EXPORTS
+   FormatMessageW
+
+   SetFileCompletionNotificationModes
+   GetCurrentThread
+
+   RemoveDirectoryW
+   CreateFile2
+   CopyFileExW
+   FindFirstFileExW
+   SetThreadErrorMode
+   DeleteFileW
+   LocalFree
+   FindClose
+   GetProcAddress
+   SetDllDirectoryW
+   DuplicateHandle
+
+   GetCurrentProcess
+
+   LocalAlloc
+   FindNextFileW
+   CloseHandle
+   CreateDirectoryW
+
+   LoadLibraryW
+
+
+   GetFileAttributesExW
+
+   FreeLibrary
+   CheckTokenMembershipEx
+   DeleteVolumeMountPointW
