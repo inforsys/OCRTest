@@ -181,7 +181,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ocrtestpsw12345678.pfx" />
     <None Include="OCRTest_TemporaryKey.pfx" />
     <None Include="tessdata\afr.traineddata" />
     <None Include="tessdata\amh.traineddata" />
@@ -367,7 +366,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>ocrtestpsw12345678.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

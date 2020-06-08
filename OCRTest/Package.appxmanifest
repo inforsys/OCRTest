@@ -9,7 +9,7 @@
   <Identity
     Name="20e1f312-2386-42cb-aea5-d817e351afb0"
     Publisher="CN=Inforsys"
-    Version="1.0.3.0" />
+    Version="1.0.4.0" />
 
   <mp:PhoneIdentity PhoneProductId="20e1f312-2386-42cb-aea5-d817e351afb0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

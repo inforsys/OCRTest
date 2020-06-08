@@ -1,3 +1,0 @@
-LIBRARY iphlpapi.dll
-EXPORTS
-   GetNetworkParams

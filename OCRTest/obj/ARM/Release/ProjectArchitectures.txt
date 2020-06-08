@@ -1,1 +1,0 @@
-D:\project\OcrTest\OCRTest\OCRTest\OCRTest.csproj;arm
