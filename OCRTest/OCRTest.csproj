@@ -25,8 +25,9 @@
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
     <AppInstallerUri>D:\test</AppInstallerUri>
     <HoursBetweenUpdateChecks>24</HoursBetweenUpdateChecks>
-    <PackageCertificateThumbprint>B27E1AAC85D3E596BABBA5E2FB69BE821D0C190C</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>5AEF4EB5E1212F73BF25CAA38AA6F2F3C5329B6A</PackageCertificateThumbprint>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <PackageCertificateKeyFile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -180,6 +181,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ocrtestpsw12345678.pfx" />
     <None Include="OCRTest_TemporaryKey.pfx" />
     <None Include="tessdata\afr.traineddata" />
     <None Include="tessdata\amh.traineddata" />
@@ -360,6 +362,12 @@
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ocrtestpsw12345678.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
